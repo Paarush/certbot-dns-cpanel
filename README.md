@@ -10,7 +10,7 @@ Plugin to allow acme dns-01 authentication of a name managed in cPanel. Useful f
 
 ## Install
 ``` bash
-pip install certbot-dns-cpanel --break-system-packages
+pip install git+https://github.com/Paarush/certbot-dns-cpanel.git --break-system-packages
 ```
 
 ## Credentials
